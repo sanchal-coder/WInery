@@ -1,0 +1,185 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-black", sans-serif; 
+}
+
+p {
+  color: grey;
+}
+  
+/* Title-Section */
+
+#title {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+
+  color: white;
+  text-align: left;
+}
+
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+
+}
+
+.Big-Heading
+{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* navigation  bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Lobster", cursive;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px !important;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light", sans-serif;
+}
+
+/* Download button */
+.Download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* title-image */
+
+.title-image {
+  width: 58%;
+  position: relative;
+  left: 109px;
+}
+
+
+/* Feature-section */
+
+#features {
+  font-family: "ubuntu-black", sans-serif;
+  background-color: white;
+}
+
+.Finewine,.Esyuse,.authgauran {
+  padding: 2%;
+}
+
+.hea-features {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+.icon:hover {
+  color: #f05d4afd;
+}
+
+/* Testimonal-Section */
+
+#testimonials {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+
+  color: white;
+}
+
+#press {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+
+  padding: 3%;
+}
+
+.carousel-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing-section */
+
+#pricing {
+  padding: 100px;
+}
+
+.Pricing-header
+{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+.PricingCard-header
+{
+  font-weight: 900;
+  font-size: 2rem;
+ 
+}
+
+.card-padding {
+  padding: 3% 2%;
+}
+
+@media (max-width: 720px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
+}
+
+/* call to action */
+
+#cta {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+
+  color: white;
+}
+
+.download-button-bottom {
+  margin: 5% 3% 5% 0%;
+}
+
+/* footer */
+
+#footer {
+  padding: 5%;
+}
+
+.icon-footer {
+  margin: 1%;
+}
